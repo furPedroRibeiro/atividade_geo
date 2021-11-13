@@ -38,6 +38,42 @@
   height: auto;
   border-bottom: 1px solid black;
 }
+.avisomanutencao {
+  background-color: red;
+  height: 15vh;
+  color: white;
+}
+#spanlogo {
+  color: rgb(187, 0, 0);
+}
+span {
+  text-decoration: underline;
+}
+.botao {
+  height: 6vh;
+  width: 20vw;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.imgsmall {
+  height: 275px;
+  width: 450px;
+}
+.botaopjt {
+  height: 8vh;
+  width: 20vw;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  margin-top: 1.4vh;
+  margin-bottom: 1.4vh;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 12vh;
+}
 @media (max-width: 768px) {
   .topicos {
     margin-top: 30vh;
@@ -50,14 +86,23 @@
     height: 250px;
     width: 350px;
   }
-}
-#spanlogo {
-  color: rgb(187, 0, 0);
-}
-span {
-  text-decoration: underline;
-}
-.footer {
-  background-color: black;
-  height: 12vh;
+  .avisomanutencao {
+    background-color: red;
+    height: 30vh;
+    color: white;
+  }
+  .botao {
+    height: 10vh;
+    width: 65vw;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .imgsmall {
+    height: 225px;
+    width: 325px;
+  }
+  .botaopjt {
+    width: 75vw;
+  }
 }
