@@ -56,18 +56,27 @@ span {
   color: black;
   border: 1px solid black;
 }
+.botaovoltar {
+  margin-top: 2vh;
+  height: 5vh;
+  width: 15vw;
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+}
 .imgsmall {
   height: 275px;
   width: 450px;
 }
 .botaopjt {
   height: 8vh;
-  width: 20vw;
+  width: 17vw;
   color: black;
   background: white;
   border: 1px solid black;
   margin-top: 1.4vh;
-  margin-bottom: 1.4vh;
 }
 .footer {
   background-color: black;
@@ -103,6 +112,6 @@ span {
     width: 325px;
   }
   .botaopjt {
-    width: 75vw;
+    width: 65vw;
   }
 }
